@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD7A2D8445BDFD23598EE27 /* Pods_MyMixerAppiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D92C7CD35D9F7FEED1F7409 /* Pods_MyMixerAppiOS.framework */; };
+		D874D9871FEBF32E0053B654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D9861FEBF32E0053B654 /* AppDelegate.swift */; };
+		D874D9891FEBF32E0053B654 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D9881FEBF32E0053B654 /* MainViewController.swift */; };
+		D874D98C1FEBF32E0053B654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D874D98A1FEBF32E0053B654 /* Main.storyboard */; };
+		D874D98E1FEBF32E0053B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D874D98D1FEBF32E0053B654 /* Assets.xcassets */; };
+		D874D9911FEBF32E0053B654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D874D98F1FEBF32E0053B654 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		204FBE62D922B904647252B3 /* Pods-MyMixerAppiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMixerAppiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMixerAppiOS/Pods-MyMixerAppiOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D92C7CD35D9F7FEED1F7409 /* Pods_MyMixerAppiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMixerAppiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C70A49F7EEBD1ED593B5D6D /* Pods-MyMixerAppiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMixerAppiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMixerAppiOS/Pods-MyMixerAppiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D874D9831FEBF32E0053B654 /* MyMixerAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMixerAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D874D9861FEBF32E0053B654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D874D9881FEBF32E0053B654 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D874D98B1FEBF32E0053B654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D874D98D1FEBF32E0053B654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D874D9901FEBF32E0053B654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D874D9921FEBF32E0053B654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D874D9801FEBF32E0053B654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD7A2D8445BDFD23598EE27 /* Pods_MyMixerAppiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5EC964C94E81254A230EFF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D92C7CD35D9F7FEED1F7409 /* Pods_MyMixerAppiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC2EA757585D9F2F73CAB369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C70A49F7EEBD1ED593B5D6D /* Pods-MyMixerAppiOS.debug.xcconfig */,
+				204FBE62D922B904647252B3 /* Pods-MyMixerAppiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D874D97A1FEBF32E0053B654 = {
+			isa = PBXGroup;
+			children = (
+				D874D9851FEBF32E0053B654 /* MyMixerAppiOS */,
+				D874D9841FEBF32E0053B654 /* Products */,
+				CC2EA757585D9F2F73CAB369 /* Pods */,
+				A5EC964C94E81254A230EFF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D874D9841FEBF32E0053B654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D874D9831FEBF32E0053B654 /* MyMixerAppiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D874D9851FEBF32E0053B654 /* MyMixerAppiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D874D99B1FEBF54E0053B654 /* Controller */,
+				D874D99A1FEBF5460053B654 /* View */,
+				D874D9991FEBF53F0053B654 /* Model */,
+				D874D9861FEBF32E0053B654 /* AppDelegate.swift */,
+				D874D98A1FEBF32E0053B654 /* Main.storyboard */,
+				D874D98D1FEBF32E0053B654 /* Assets.xcassets */,
+				D874D98F1FEBF32E0053B654 /* LaunchScreen.storyboard */,
+				D874D9921FEBF32E0053B654 /* Info.plist */,
+			);
+			path = MyMixerAppiOS;
+			sourceTree = "<group>";
+		};
+		D874D9991FEBF53F0053B654 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D874D99A1FEBF5460053B654 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D874D99B1FEBF54E0053B654 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D874D9881FEBF32E0053B654 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D874D9821FEBF32E0053B654 /* MyMixerAppiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D874D9951FEBF32E0053B654 /* Build configuration list for PBXNativeTarget "MyMixerAppiOS" */;
+			buildPhases = (
+				CDC00A49F309661E1DE3DACF /* [CP] Check Pods Manifest.lock */,
+				D874D97F1FEBF32E0053B654 /* Sources */,
+				D874D9801FEBF32E0053B654 /* Frameworks */,
+				D874D9811FEBF32E0053B654 /* Resources */,
+				0E76D02E69DCA22B0646CB4F /* [CP] Embed Pods Frameworks */,
+				FF01ED7B5A9B1D8EA9D629AA /* [CP] Copy Pods Resources */,
+				D8DD45281FEC060600A307AF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMixerAppiOS;
+			productName = MyMixerAppiOS;
+			productReference = D874D9831FEBF32E0053B654 /* MyMixerAppiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D874D97B1FEBF32E0053B654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sigit Hanafi";
+				TargetAttributes = {
+					D874D9821FEBF32E0053B654 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D874D97E1FEBF32E0053B654 /* Build configuration list for PBXProject "MyMixerAppiOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D874D97A1FEBF32E0053B654;
+			productRefGroup = D874D9841FEBF32E0053B654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D874D9821FEBF32E0053B654 /* MyMixerAppiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D874D9811FEBF32E0053B654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874D9911FEBF32E0053B654 /* LaunchScreen.storyboard in Resources */,
+				D874D98E1FEBF32E0053B654 /* Assets.xcassets in Resources */,
+				D874D98C1FEBF32E0053B654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E76D02E69DCA22B0646CB4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyMixerAppiOS/Pods-MyMixerAppiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/GLog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMixerAppiOS/Pods-MyMixerAppiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC00A49F309661E1DE3DACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMixerAppiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DD45281FEC060600A307AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "npm run bundling";
+		};
+		FF01ED7B5A9B1D8EA9D629AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMixerAppiOS/Pods-MyMixerAppiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D874D97F1FEBF32E0053B654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874D9891FEBF32E0053B654 /* MainViewController.swift in Sources */,
+				D874D9871FEBF32E0053B654 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D874D98A1FEBF32E0053B654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D874D98B1FEBF32E0053B654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D874D98F1FEBF32E0053B654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D874D9901FEBF32E0053B654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D874D9931FEBF32E0053B654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D874D9941FEBF32E0053B654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D874D9961FEBF32E0053B654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C70A49F7EEBD1ED593B5D6D /* Pods-MyMixerAppiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4437WC2GU7;
+				INFOPLIST_FILE = MyMixerAppiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigithanafi.MyMixerAppiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D874D9971FEBF32E0053B654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204FBE62D922B904647252B3 /* Pods-MyMixerAppiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4437WC2GU7;
+				INFOPLIST_FILE = MyMixerAppiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigithanafi.MyMixerAppiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D874D97E1FEBF32E0053B654 /* Build configuration list for PBXProject "MyMixerAppiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874D9931FEBF32E0053B654 /* Debug */,
+				D874D9941FEBF32E0053B654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D874D9951FEBF32E0053B654 /* Build configuration list for PBXNativeTarget "MyMixerAppiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874D9961FEBF32E0053B654 /* Debug */,
+				D874D9971FEBF32E0053B654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D874D97B1FEBF32E0053B654 /* Project object */;
+}
